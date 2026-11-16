@@ -1,0 +1,10 @@
+[Nemo Action]
+Name=Copy full path
+Comment=Copy the selected file or folder path as text
+Exec=wl-copy --type text/plain %F
+Icon-Name=edit-copy-symbolic
+Selection=s
+Extensions=any;
+Quote=double
+Dependencies=wl-copy;
+UriScheme=file

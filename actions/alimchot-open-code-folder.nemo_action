@@ -1,0 +1,10 @@
+[Nemo Action]
+Name=Open folder in VS Code
+Comment=Open this folder in a new editor window
+Exec=code --new-window %F
+Icon-Name=visual-studio-code
+Selection=s
+Extensions=dir;
+Quote=double
+Dependencies=code;
+UriScheme=file
